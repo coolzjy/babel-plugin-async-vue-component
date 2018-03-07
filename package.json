@@ -1,0 +1,37 @@
+{
+  "name": "babel-plugin-async-vue-component",
+  "version": "0.0.1",
+  "description": "Better way to import async vue components",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "babel examples/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolzjy/babel-plugin-async-vue-component.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "async",
+    "vue",
+    "component"
+  ],
+  "author": "Zhang Visper <i@zjy.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolzjy/babel-plugin-async-vue-component/issues"
+  },
+  "homepage": "https://github.com/coolzjy/babel-plugin-async-vue-component#readme",
+  "dependencies": {
+    "babel-template": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0"
+  }
+}
